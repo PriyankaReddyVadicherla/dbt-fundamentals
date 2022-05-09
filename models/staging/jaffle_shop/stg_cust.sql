@@ -1,5 +1,5 @@
 {{ config(
-    tags = ["finance"]
+    query_tag = "finance"
 ) }}
 
 with customers as (

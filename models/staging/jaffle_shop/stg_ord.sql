@@ -1,3 +1,7 @@
+{{ config(
+    query_tag = 'hello orders'
+) }}
+
 with orders as (
     
     select
